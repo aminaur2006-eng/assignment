@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+    <title>My First Webpage </title>
+
+    <!--using css to add borders to a table-->
+    <!--makes the borders collapse into a single border-->
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse; 
+        }
+        th, td{
+            padding: 10px;
+        } 
+    </style> <!--padding is a space between the cell edges and data -->
+</head>
+<body>
+    <!--headings-->
+    <h1>Urazbekova Amina</h1>
+    <h2>WEB Technologies 1 (Front End)</h2>
+    <h3>About Me:</h3> 
+
+    <!--inserting my photo-->
+    <img src="my_photo.jpg" width="150" height="200">
+
+    <!--paragraph about me-->
+    <p>My name is Amina. I'm 18 years old, I was born and raised in Astana. At the moment, I am a second-year student at Astana IT University, majoring in Media Technologies. 
+        I am really into video editing, design and other creative projects, so that is why i chose to study in this field. </p>
+
+        <hr> <!--separating line-->
+        <h3>My hobbies:</h3> <!--heading-->
+
+        <!--ordered list-->
+        <ol>
+        <li>Photography</li>
+        <li>Video editing</li>
+        <li>Dance</li>
+        <li>Playing guitar</li>
+        <li>Watching movies</li>
+        </ol>
+
+        <hr>
+        <h3>Favorite websites:</h3>
+        <ul> <!--unordered list-->
+            <li>Pinterest</li>
+            <li>Youtube</li>
+            <li>Spotify</li>
+            <li>Instagram</li>
+        </ul>
+
+        <!--<a> tag defines a hyperlink-->
+        <a href="https://ru.pinterest.com/">Pinterest website link</a>
+        <p>
+        <a href="https://www.tiktok.com">Tiktok website link</a> </p>
+        <p>
+        <button type="button">Click me!</button> 
+        </p>
+        <!--Tables-->
+        <h3>My weekly class schedule:</h3>
+        <table>
+            <tr> <!--tr is table row-->
+                <th>Subject</th> <!--th is table header-->
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>WEB Technologies</td> <!--td is table data-->
+                <td>Monday</td>
+                <td>7PM - 8PM</td>
+            </tr>
+            <tr>
+                <td>Cinematography & Digital Editing</td>
+                <td>Tuesday</td>
+                <td>3PM - 5PM</td>
+            </tr>
+            <tr>
+                <td>Russian Language</td>
+                <td>Wednesday</td>
+                <td>2PM - 4PM</td>
+            </tr>
+            <tr>
+                <td>Operating Systems</td>
+                <td>Thursday</td>
+                <td>3PM - 5PM</td>
+            </tr>
+            <tr>
+                <td>Foundation of Screenwriting</td>
+                <td>Friday</td>
+                <td>12AM - 2PM</td>
+            </tr>
+            
+        </table>
+        <h3>My mood today:</h3>
+        <p>Today was a pretty exhausting day &#128531;, but nevertheless I really enjoyed some of the classes &#128522;, even though the weather was cloudy &#9925; and rainy &#9748; </p>
+        <hr>
+        <h3>Form</h3>
+<!--Form-->
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br> <!--text is a single-line text input field-->
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="fcolor">Favorite color:</label><br>
+            <input type="text" id="fcolor" name="fcolor"><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        
+
+
+</body>
+</html>
